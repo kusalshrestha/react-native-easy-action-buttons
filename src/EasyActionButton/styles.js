@@ -1,7 +1,6 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Dimensions } from 'react-native'
 
-import colors from '../../constants/colors'
-import { getWidthRatio } from '../../utils/ui'
+const getWidthRatio = percentageHeight => Dimensions.get('window').width * (percentageHeight / 100)
 
 export const MAIN_BUTTON_SIZE = 60
 export const SUB_BUTTONS_SIZE = 50
@@ -16,7 +15,7 @@ export default StyleSheet.create({
     position: 'absolute',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    backgroundColor: colors.transparentGray
+    backgroundColor: 'rgba(52, 52, 52, 0.4)'
   },
   wrapper: {
     width: getWidthRatio(100),
@@ -25,7 +24,7 @@ export default StyleSheet.create({
     position: 'absolute',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.transparent
+    backgroundColor: "transparent"
   },
   mainButton: {
     position: 'absolute',
@@ -42,7 +41,7 @@ export default StyleSheet.create({
     borderRadius: MAIN_BUTTON_SIZE / 2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.appGreen
+    backgroundColor: "#59D791"
   },
   shadow: {
     shadowRadius: 5,
@@ -65,16 +64,16 @@ export default StyleSheet.create({
     borderRadius: SUB_BUTTONS_SIZE / 2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.loginButtonColor
+    backgroundColor: '#FFBA0D'
   },
   title: {
     fontSize: 16,
     fontWeight: '600',
-    color: colors.white
+    color: "white"
   },
   titleStyle: {
     fontSize: 9,
-    color: colors.white,
+    color: "white",
     textAlign: 'center'
   }
 })
