@@ -1,0 +1,37 @@
+{
+  "name": "react-native-easy-action-buttons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusalshrestha/react-native-easy-action-buttons.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "segment control",
+    "segment-control",
+    "segment",
+    "animation"
+  ],
+  "author": "Kusal Shrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kusalshrestha/react-native-easy-action-buttons/issues"
+  },
+  "homepage": "https://github.com/kusalshrestha/react-native-easy-action-buttons#readme",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.56.0"
+  }
+}
