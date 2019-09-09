@@ -2,6 +2,8 @@
 
 Easy switchable actions buttons in react native.
 
+![demo](https://github.com/kusalshrestha/react-native-easy-action-buttons/blob/master/image.gif)
+
 ## Installation
 
 ```
